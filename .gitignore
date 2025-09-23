@@ -1,7 +1,17 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+**/src/main/**/target/
+**/src/test/**/target/
+
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+.idea
+*.iws
+*.iml
+*.ipr
 
 ### Eclipse ###
 .apt_generated
@@ -15,6 +25,15 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
+### Package Files ###
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+!jdk/jdk-8u172-linux-x64.tar.gz
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -27,3 +46,14 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Other ####
+FFDC/
+mqjms.*
+log/
+logs
+logs/*
+*.log
+*.log.*
+!ceph-lib-app-1.0.0-jar-with-dependencies.jar
+/LOG_PATH_IS_UNDEFINED/
